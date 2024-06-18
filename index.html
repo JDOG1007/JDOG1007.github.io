@@ -39,6 +39,25 @@ a2 {
 	
 
 }
+#defaultBlock{
+	display:table;
+}
+	div{
+		float:left;
+		height: 450px;
+		width: 200px;
+		padding: 10px;
+		
+	}
+	#block1{
+		background-color: black;
+		
+	}
+	#block2{
+		background-color: black;
+		width: 200px;
+		
+	}
 </style>
 
 </HEAD>
@@ -53,7 +72,7 @@ Take a look at the graphs below of GLYC's performance compared to the S&P 500
 </p2>
 <a href="https://www.glycomimetics.com/"target="blank">click here to learn more</a>
 <a href="cw.html"target="self">click here to play a game of wordle featuring cancer words in order to get into the Glyco-mood</a>
-
+<div id="block1">
 <p>
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
@@ -74,6 +93,8 @@ Take a look at the graphs below of GLYC's performance compared to the S&P 500
   </script>
 </div>
 <!-- TradingView Widget END -->
+</div>
+<div id="block2">
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
@@ -94,6 +115,7 @@ Take a look at the graphs below of GLYC's performance compared to the S&P 500
   </script>
 </div>
 <!-- TradingView Widget END -->
+</div>
 </p>
 <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
  <script src="sketch.js"></script>
